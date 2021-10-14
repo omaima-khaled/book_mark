@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body >
+    <section class="bookmark ">
+       
+       
+            <h1 class="my-1 text-muted py-5 "> Bookmarker</h1>
+            <div class="content  container">
+                <div class="platform text-center my-3 ">
+                    <h2 class="pt-2">Bookmark your favorite sites</h2>
+                   <div class="w-75 mx-auto py-4">
+                     <div class="mb-3 form-croup">
+                         <label for="siteName">site Name</label>
+                         <input class="form-control my-2 shadow-none" type="text" id="siteName" placeholder="Bookmark name">
+                        </div>
+             
+                        <div class="mb-3">
+                         <label for="siteUr ">site URL</label>
+                         <input class="form-control my-2 shadow-none" type="text" id="siteUrl" placeholder="website URL">
+                        </div>
+                        <button onclick="addsite() ;" class="btn btn-primary py-1 my-1">Submit</button>
+                     </div>
+                  <p></p>
+              </div>   
+                </div>
+               
+                
+                          <table class="table container">
+                            <thead class="text-white">
+                                <th>siteIndex</th>
+                              <th>siteName</th>
+                              
+                              <th>Visit</th>
+                              <th>Delete</th>
+                            </thead>
+                            <tbody id="tableBody">
+                                
+                                
+                            </tbody>
+          
+                         </table>
+                    
+     
+     
+    </section>
+  
+
+
+
+
+
+   <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

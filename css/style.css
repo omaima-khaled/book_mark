@@ -1,0 +1,37 @@
+ .bookmark{
+     background-image: url(../images/pexels-photo-1111318.jpeg);
+    background-position: center center;
+    background-size: cover;
+   
+    }
+.content{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+    
+}
+.platform{
+    
+    background-color: #EEE;
+}
+h1{
+    
+    color: #AAA;
+}
+label{
+    font-weight: bold;
+    color: #333;
+}
+input:focus{
+    border: 2px solid rgb(235, 235, 31) !important;
+}
+.header{
+    background: #BF6860;
+}
+.header p{
+    color: #BBDDF2;
+}
+.showbtn{
+    border-radius: 50px;
+}
+
